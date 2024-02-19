@@ -47,7 +47,7 @@ export default function Middle() {
                 <div className="modal-about">
                     <button onClick={toggleAbout}><IoIosCloseCircle /></button>
                     <h4>sobre</h4>
-                    <p>Me chamo Eduardo Batista, tenho 22 anos e moro em Guarapuava no Paraná. Desde que tive meu primeiro contato com a programação se tornou meu sonho trabalhar na área, atualmente sou graduando de Engenharia de Software na Cruzeiro do sul e estou a procura da minha primeira vaga como desenvolvedor.</p>
+                    <p>Meu nome é Eduardo Batista, tenho 22 anos e moro em Guarapuava, Paraná. Desde o meu primeiro contato com a programação, cultivar uma carreira nessa área se tornou meu sonho. Atualmente, estou cursando Engenharia de Software na Universidade Cruzeiro do Sul e estou em busca da minha primeira oportunidade como desenvolvedor.</p>
                 </div>
             </div>
         </section>

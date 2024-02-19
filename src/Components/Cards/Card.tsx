@@ -8,14 +8,14 @@ export default function Card(props: any) {
         <div className="card-p">
             <img src={props.imgCard} alt="image card" />
             <div className="card-info">
-                <h5>E-commerce</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi</p>
+                <h5>{props.nameProject}</h5>
+                <p>{props.descProject}</p>
                 <div className="card-buttons">
                     <button>
-                        <a href="https://react-icons.github.io/react-icons/search/#q=enter" target="blank"><MdOutlineTransitEnterexit /></a>
+                        <a href={props.linkProject} target="blank"><MdOutlineTransitEnterexit /></a>
                     </button>
                     <button>
-                        <a href="https://react-icons.github.io/react-icons/search/#q=enter" target="blank"><FaGithub /></a>
+                        <a href={props.linkGithub} target="blank"><FaGithub /></a>
                     </button>
                 </div>
             </div>

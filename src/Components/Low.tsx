@@ -1,5 +1,6 @@
 import Card from "./Cards/Card";
 import imgCard from "../assets/images/project1.png";
+import imgBlog from "../assets/images/blog1 - Copia.png";
 import '../assets/sass/color.scss'
 import { useState } from "react";
 import CardBack from "./Cards/CardBack";
@@ -42,10 +43,24 @@ export default function Low() {
                 >skills</button>
             </article>
             <article className={psClass === 'on' ? 'container-p' : 'container-p-off'}>
-                <Card imgCard={imgCard}/>
-                <Card imgCard={imgCard}/>
-                <Card imgCard={imgCard}/>
-                <Card imgCard={imgCard}/>
+                <Card imgCard={imgBlog} 
+                    nameProject="Blog"
+                    descProject="Este é um blog minimalista que desenvolvi usando HTML, JavaScript e Sass. Ele foi projetado para ser responsivo, adaptando-se perfeitamente a dispositivos móveis, tablets e desktops." 
+                    linkProject="https://eduardo-oreia.github.io/Blog/"
+                    linkGithub="https://github.com/Eduardo-Oreia/Blog"
+                />
+                <Card imgCard={imgCard} 
+                    nameProject="Lorem Ipsum"
+                    descProject="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa." 
+                />
+                <Card imgCard={imgCard}
+                    nameProject="Lorem Ipsum"
+                    descProject="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa." 
+                />
+                <Card imgCard={imgCard}
+                    nameProject="Lorem Ipsum"
+                    descProject="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa." 
+                />
             </article>
             <article className={psClass === 'off' ? 'container-s' : 'container-s-off'}>
                 <CardFront titleContainer='Frontend' />
