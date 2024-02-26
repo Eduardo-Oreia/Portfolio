@@ -46,8 +46,8 @@ export default function Low() {
                 <Card imgCard={imgBlog} 
                     nameProject="Blog"
                     descProject="Este é um blog minimalista que desenvolvi usando HTML, JavaScript e Sass. Ele foi projetado para ser responsivo, adaptando-se perfeitamente a dispositivos móveis, tablets e desktops." 
-                    linkProject="https://eduardo-oreia.github.io/Blog/"
-                    linkGithub="https://github.com/Eduardo-Oreia/Blog"
+                    linkProject="https://eduardo-batist4.github.io/Blog/"
+                    linkGithub="https://github.com/Eduardo-Batist4/Blog"
                 />
                 <Card imgCard={imgCard} 
                     nameProject="Lorem Ipsum"

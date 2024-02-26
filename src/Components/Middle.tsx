@@ -25,13 +25,13 @@ export default function Middle() {
         <section className="container-middle">
             <div className="social-media">
                 <button>
-                    <a href="https://github.com/Eduardo-Oreia" target="blank"><FaGithub /></a>
+                    <a href="https://github.com/Eduardo-Batist4" target="blank"><FaGithub /></a>
                 </button>
                 <button>
-                    <a href="#"><FaLinkedin /></a>
+                    <a href="https://www.linkedin.com/in/eduardo-batista-5927082b6/" target="blank"><FaLinkedin /></a>
                 </button>
                 <button>
-                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Foreia_eduardo%3Figsh%3DNTc4MTIwNjQ2YQ%253D%253D%26fbclid%3DIwAR3YTwSm6uX-v2xNGWnDRWIwibruX_H3OnSFeHmqgErOFPpYi8idOTdL19M&h=AT2Vb6-Nn8QSiX7aZQ0NZWwMVPwzld4dr71Ejq2iLMJHA1Ae2bAp8QlbRVjqeKL8kBr8YLTdxcdG5WkTP9zA5kED_PwNa7iJ22hJaywy8ZrKbzER_UX-3ztPiNcJZy0xNR3Z9A" target="blank"><GrInstagram /></a>
+                    <a href="https://www.instagram.com/batista.eduard0/" target="blank"><GrInstagram /></a>
                 </button>
             </div>
             <div className="about-container">
