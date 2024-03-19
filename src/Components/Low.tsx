@@ -1,6 +1,7 @@
 import Card from "./Cards/Card";
 import imgCard from "../assets/images/project1.png";
 import imgBlog from "../assets/images/blog1 - Copia.png";
+import imgValidator from "../assets/images/validator.png";
 import '../assets/sass/color.scss'
 import { useState } from "react";
 import CardBack from "./Cards/CardBack";
@@ -49,9 +50,11 @@ export default function Low() {
                     linkProject="https://eduardo-batist4.github.io/Blog/"
                     linkGithub="https://github.com/Eduardo-Batist4/Blog"
                 />
-                <Card imgCard={imgCard} 
-                    nameProject="Lorem Ipsum"
-                    descProject="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa." 
+                <Card imgCard={imgValidator} 
+                    nameProject="Validador de Login"
+                    descProject="Este é um Validador de Login que verifica se o e-mail e a senha atendem aos requisitos estabelecidos para cada campo. As regras estão na descrição no Github."
+                    linkProject="https://eduardo-batist4.github.io/Validacao-Login/"
+                    linkGithub="https://github.com/Eduardo-Batist4/Validacao-Login" 
                 />
                 <Card imgCard={imgCard}
                     nameProject="Lorem Ipsum"
