@@ -2,7 +2,7 @@
 
 Bem vindo(a) ao meu Portfólio! aqui mostro os projetos que venho fazendo ao longo da minha jornada, mostro as minhas Habilidades e falo sobre mim.
 
-https://eduardo-batist4.github.io/Portfolio/
+https://Eduardo-Batist4.github.io/Portfolio/
 
 
 
