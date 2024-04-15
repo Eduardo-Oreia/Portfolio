@@ -2,6 +2,7 @@ import Card from "./Cards/Card";
 import imgCard from "../assets/images/project1.png";
 import imgBlog from "../assets/images/blog1 - Copia.png";
 import imgValidator from "../assets/images/validator.png";
+import imgWeather from "../assets/images/weather.png";
 import '../assets/sass/color.scss'
 import { useState } from "react";
 import CardBack from "./Cards/CardBack";
@@ -56,9 +57,11 @@ export default function Low() {
                     linkProject="https://eduardo-batist4.github.io/Validacao-Login/"
                     linkGithub="https://github.com/Eduardo-Batist4/Validacao-Login" 
                 />
-                <Card imgCard={imgCard}
-                    nameProject="Lorem Ipsum"
-                    descProject="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa." 
+                <Card imgCard={imgWeather}
+                    nameProject="App-Weather"
+                    descProject="Este é um aplicativo simples e intuitivo que fornece informações meteorológicas atualizadas de forma rápida e fácil."
+                    linkProject="https://app-weather-001.netlify.app" 
+                    linkGithub="https://github.com/Eduardo-Batist4/App-Weather"
                 />
                 <Card imgCard={imgCard}
                     nameProject="Lorem Ipsum"
