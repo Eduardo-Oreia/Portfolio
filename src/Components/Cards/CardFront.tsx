@@ -9,8 +9,6 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa6";
 // Icone Sass
 import { FaSass } from "react-icons/fa6";
-// Icone Typescript
-import { SiTypescript } from "react-icons/si";
 
 export default function CardFront(props: any) {
     return(
@@ -22,7 +20,6 @@ export default function CardFront(props: any) {
                 <SkillName icon={<FaHtml5 />} nameSkill='Html' />
                 <SkillName icon={<IoLogoJavascript />} nameSkill='Javascript' />
                 <SkillName icon={<FaCss3Alt />} nameSkill='Css' />
-                <SkillName icon={<SiTypescript />} nameSkill='Typescript' />
                 <SkillName icon={<FaSass />} nameSkill='Sass' />
                 <SkillName icon={<FaReact />} nameSkill='React' />
             </div>

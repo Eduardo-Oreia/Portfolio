@@ -1,9 +1,10 @@
 import Card from "./Cards/Card";
-import imgCard from "../assets/images/project1.png";
+import imgRestaurant from "../assets/images/restaurant.png";
+import imgCsnews from "../assets/images/csnews.jpg";
 import imgBlog from "../assets/images/blog1 - Copia.png";
 import imgValidator from "../assets/images/validator.png";
 import imgWeather from "../assets/images/weather.png";
-import '../assets/sass/color.scss'
+import '../assets/sass/color.scss';
 import { useState } from "react";
 import CardBack from "./Cards/CardBack";
 import CardFront from "./Cards/CardFront";
@@ -45,6 +46,16 @@ export default function Low() {
                 >skills</button>
             </article>
             <article className={psClass === 'on' ? 'container-p' : 'container-p-off'}>
+                <Card imgCard={imgCsnews}
+                        nameProject="Cs-news Monolito (Backend)"
+                        descProject="Monolito é uma arquitetura onde o frontend e o backend estão integrados em uma única aplicação. Este projeto inclui funcionalidades de registro, login e comentários."
+                        linkGithub="https://github.com/Eduardo-Batist4/cs-news" 
+                />
+                <Card imgCard={imgRestaurant}
+                        nameProject="Restaurant System (Backend)"
+                        descProject="Este backend simula um sistema de restaurante desenvolvido para otimizar e controlar todas as operações do estabelecimento."
+                        linkGithub="https://github.com/Eduardo-Batist4/restaurant-system" 
+                />
                 <Card imgCard={imgBlog} 
                     nameProject="Blog"
                     descProject="Este é um blog minimalista que desenvolvi usando HTML, JavaScript e Sass. Ele foi projetado para ser responsivo, adaptando-se perfeitamente a dispositivos móveis, tablets e desktops." 
@@ -62,10 +73,6 @@ export default function Low() {
                     descProject="Este é um aplicativo simples e intuitivo que fornece informações meteorológicas atualizadas de forma rápida e fácil."
                     linkProject="https://app-weather-001.netlify.app" 
                     linkGithub="https://github.com/Eduardo-Batist4/App-Weather"
-                />
-                <Card imgCard={imgCard}
-                    nameProject="Lorem Ipsum"
-                    descProject="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa." 
                 />
             </article>
             <article className={psClass === 'off' ? 'container-s' : 'container-s-off'}>
